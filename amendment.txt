@@ -1,8 +1,0 @@
-
-This version including some amendments listed below:
-
-1. while display the board, if the spot is empty it will display a white space instend of 0;
-
-2. the data will be read from /written to txt file,
-
-3. the program will determine whether the puzzle has solution or not
