@@ -115,7 +115,7 @@ def result(boa):
 	"""
 	# evaluate whether the game has solution and has been solved already
 	if solution(boa) is True and find_empty(boa) is None:
-		print("The puzzle is solved!")
+		print("The solution is:")
 	else:
 		print("-No solution for puzzle-")
 
@@ -135,6 +135,10 @@ if __name__ == "__main__":
 	boa = start_game()					# obtain data to start game
 	draw_borad(boa)						# display the board
 	print("<===================>")		# separation line
+	show_sol = "n"
+	while str(show_sol).lower() != "y" and str(show_sol).lower() != "yes":
+		show_sol = input("Want to see solution?[Y/N]: ")
+	print("<===================>")
 	result(boa)							# call model to solve the puzzle
 	draw_borad(boa)						# display the board
 	output_game()						# save data to txt file
