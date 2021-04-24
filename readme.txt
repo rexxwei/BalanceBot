@@ -9,14 +9,6 @@ The result will print in Python console and automatically save in "sudoku_result
 
 ------------- Sublime Text 3 error issue -------------
 
-In some IDEs like Sublime Text 3, there might be some random code while printing the result in console.
-Under this case, please follow below steps to solve the issue:
-
-Install ANSIescape package:
-1. Ctrl + Shift + P --> type "install", select "Package Control: Install Package" --> wait a few seconds, and a new search bar will pop up.
-2. In the new search bar --> search for "ANSIescape" and select it.
-3. Watch the status bar in the very bottom to see when it's done installing. It should just take a few seconds. Done!
-
-Now, to use it, click the current syntax highlighting text in the very bottom right of your Sublime Text 3 window. Choose "ANSI", as shown below.
-
-You may also choose this from the menus: View --> Syntax --> ANSI.
+In some IDEs like Sublime Text 3, there might be some error while taking input from user.
+This is an issue for Sublime Text 3 and can be fixed by adjust the input handling mechanism.
+But on most IDEs (including PyCharm/Spyder/ATOM) the program can run smoothly without any problem.
