@@ -136,6 +136,7 @@ if __name__ == "__main__":
 	draw_borad(boa)						# display the board
 	print("<===================>")		# separation line
 	show_sol = "n"
+	# accept input from user to decide show solution or not
 	while str(show_sol).lower() != "y" and str(show_sol).lower() != "yes":
 		show_sol = input("Want to see solution?[Y/N]: ")
 	print("<===================>")
