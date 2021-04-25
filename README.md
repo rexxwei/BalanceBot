@@ -1,9 +1,8 @@
 
 
 This program is to solve the Sudoku puzzle game save in file "soduku.txt".
-In soduku.py, there are 8 individual model to achieve respective purpose and the main function to call
-these models. Run the sudoku.py file, the main function will solve and display the game and result.
-The result will print in Python console and automatically save in "sudoku_result.txt" at the same time.
+By running the main.py, it will call other models to display and solve the game.
+The result will print in Python console and automatically save in "sudoku_result.txt".
 
 
 
