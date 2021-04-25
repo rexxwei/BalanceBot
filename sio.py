@@ -28,3 +28,4 @@ def output_game(boa):
 		output.write(str(element)[1:-1])
 		output.write('\n')
 	output.close()
+    

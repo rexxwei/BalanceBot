@@ -1,5 +1,5 @@
 """
-This model is the major model to call individual model result the Sudoku puzzle game.
+This model is the major model run the project. It will call respective model to solve Sudoku puzzle.
 """
 
 import sio as sio

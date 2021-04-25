@@ -64,11 +64,22 @@ def solution(boa):
 def result(boa):
 	"""
 	evaluate whether game has solution or not, print the conclusion
-	param board: the 2D list contain the game
+	param board: the 2D list contain the game info
 	"""
 	# evaluate whether the game has solution and has been solved already
 	if solution(boa) is True and find_empty(boa) is None:
 		print("The solution is:")
+		return 1
 	else:
 		print("-No solution for puzzle-")
+		return 1
 
+
+def test_sol(boa):
+	"""
+	test this model is working properly
+	param board: the 2D list contain the game info
+	"""
+	# evaluate whether the game has solution and has been solved already
+	if len(find_empty(boa)) == 2 or find_empty(boa) is None:
+		return True
