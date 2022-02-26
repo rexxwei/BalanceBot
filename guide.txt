@@ -1,0 +1,20 @@
+
+[Tensorflow]
+> pip install tensorflow==1.5
+
+[Baselines]
+> git clone https://github.com/openai/baselines.git
+> cd baselines
+> pip install -e .
+
+[GYM]
+option 1:
+> conda install -c conda-forge gym
+
+option 2:
+> git clone https://github.com/openai/gym.git
+> cd gym
+> pip install -e .
+
+[PyBullet]
+> conda install -c conda-forge pybullet
